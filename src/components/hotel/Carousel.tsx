@@ -31,6 +31,7 @@ const imageStyles = css`
   height: 100%;
   object-fit: cover;
   border-radius: 4px;
+  cursor: pointer;
 `
 
 export default Carousel
