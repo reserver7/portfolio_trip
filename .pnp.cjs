@@ -56,6 +56,7 @@ const RAW_RUNTIME_STATE =
           ["react-query", "virtual:c2b2b3bf7cc78d393e240b24f84a3926d561a9cb99d4aa7df94c571ca6e41b8977c08d7a5f6cebb3027de8b3c5ad5eece1547a8e2ddd5826ddbc0e0e7353112e#npm:3.39.3"],\
           ["react-router-dom", "virtual:c2b2b3bf7cc78d393e240b24f84a3926d561a9cb99d4aa7df94c571ca6e41b8977c08d7a5f6cebb3027de8b3c5ad5eece1547a8e2ddd5826ddbc0e0e7353112e#npm:6.23.0"],\
           ["react-scripts", "virtual:c2b2b3bf7cc78d393e240b24f84a3926d561a9cb99d4aa7df94c571ca6e41b8977c08d7a5f6cebb3027de8b3c5ad5eece1547a8e2ddd5826ddbc0e0e7353112e#npm:5.0.1"],\
+          ["swiper", "npm:11.1.1"],\
           ["typescript", "patch:typescript@npm%3A4.9.5#optional!builtin<compat/typescript>::version=4.9.5&hash=289587"],\
           ["web-vitals", "npm:2.1.4"]\
         ],\
@@ -15202,6 +15203,7 @@ const RAW_RUNTIME_STATE =
           ["react-query", "virtual:c2b2b3bf7cc78d393e240b24f84a3926d561a9cb99d4aa7df94c571ca6e41b8977c08d7a5f6cebb3027de8b3c5ad5eece1547a8e2ddd5826ddbc0e0e7353112e#npm:3.39.3"],\
           ["react-router-dom", "virtual:c2b2b3bf7cc78d393e240b24f84a3926d561a9cb99d4aa7df94c571ca6e41b8977c08d7a5f6cebb3027de8b3c5ad5eece1547a8e2ddd5826ddbc0e0e7353112e#npm:6.23.0"],\
           ["react-scripts", "virtual:c2b2b3bf7cc78d393e240b24f84a3926d561a9cb99d4aa7df94c571ca6e41b8977c08d7a5f6cebb3027de8b3c5ad5eece1547a8e2ddd5826ddbc0e0e7353112e#npm:5.0.1"],\
+          ["swiper", "npm:11.1.1"],\
           ["typescript", "patch:typescript@npm%3A4.9.5#optional!builtin<compat/typescript>::version=4.9.5&hash=289587"],\
           ["web-vitals", "npm:2.1.4"]\
         ],\
@@ -18950,6 +18952,15 @@ const RAW_RUNTIME_STATE =
           ["csso", "npm:4.2.0"],\
           ["picocolors", "npm:1.0.0"],\
           ["stable", "npm:0.1.8"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["swiper", [\
+      ["npm:11.1.1", {\
+        "packageLocation": "../../luke/.yarn/berry/cache/swiper-npm-11.1.1-fbb4753780-10c0.zip/node_modules/swiper/",\
+        "packageDependencies": [\
+          ["swiper", "npm:11.1.1"]\
         ],\
         "linkType": "HARD"\
       }]\
