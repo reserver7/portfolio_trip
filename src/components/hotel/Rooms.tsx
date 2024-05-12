@@ -23,13 +23,13 @@ const Rooms = ({ hotelId }: { hotelId: string }) => {
         </Text>
       </Header>
       <ul>
-        {data?.map((room, idx) => {
+        {data?.map((room) => {
           const 마감임박인가 = room.avaliableCount === 1
           const 매진인가 = room.avaliableCount === 0
 
           return (
             <ListRow
-              key={idx}
+              key={room.id}
               left={
                 <img
                   src={room.imageUrl}
