@@ -5,6 +5,7 @@ import Button from '@shared/Button'
 import Flex from '@shared/Flex'
 import { useCallback } from 'react'
 import { Link, useLocation } from 'react-router-dom'
+import Spacing from './Spacing'
 
 function Navbar() {
   const location = useLocation()
@@ -16,18 +17,29 @@ function Navbar() {
   const renderButton = useCallback(() => {
     if (user != null) {
       return (
-        <Link to="my">
-          <img
-            src={
-              user.photoURL ??
-              'https://cdn4.iconfinder.com/data/icons/music-ui-solid-24px/24/user_account_profile-2-64.png'
-            }
-            alt="유저의 이미지"
-            width={40}
-            height={40}
-            style={{ borderRadius: '100%' }}
-          />
-        </Link>
+        <Flex align="center">
+          <Link to="my">
+            <img
+              src={
+                user.photoURL ??
+                'https://cdn4.iconfinder.com/data/icons/music-ui-solid-24px/24/user_account_profile-2-64.png'
+              }
+              alt="유저의 이미지"
+              width={40}
+              height={40}
+              style={{ borderRadius: '100%' }}
+            />
+          </Link>
+          <Spacing size={4} direction="horizontal" />
+          <Link to="/settings">
+            <img
+              src="https://cdn1.iconfinder.com/data/icons/ionicons-outline-vol-2/512/settings-outline-512.png"
+              alt=""
+              width={40}
+              height={40}
+            />
+          </Link>
+        </Flex>
       )
     }
 
