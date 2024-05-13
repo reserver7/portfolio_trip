@@ -41,6 +41,7 @@ const RAW_RUNTIME_STATE =
           ["@types/jest", "npm:27.5.2"],\
           ["@types/node", "npm:16.18.97"],\
           ["@types/react", "npm:18.3.1"],\
+          ["@types/react-copy-to-clipboard", "npm:5.0.7"],\
           ["@types/react-dom", "npm:18.3.0"],\
           ["craco-alias", "npm:3.0.1"],\
           ["date-fns", "npm:3.6.0"],\
@@ -52,6 +53,7 @@ const RAW_RUNTIME_STATE =
           ["firebase", "npm:10.11.1"],\
           ["prettier", "npm:3.2.5"],\
           ["react", "npm:18.3.1"],\
+          ["react-copy-to-clipboard", "virtual:c2b2b3bf7cc78d393e240b24f84a3926d561a9cb99d4aa7df94c571ca6e41b8977c08d7a5f6cebb3027de8b3c5ad5eece1547a8e2ddd5826ddbc0e0e7353112e#npm:5.1.0"],\
           ["react-dom", "virtual:c2b2b3bf7cc78d393e240b24f84a3926d561a9cb99d4aa7df94c571ca6e41b8977c08d7a5f6cebb3027de8b3c5ad5eece1547a8e2ddd5826ddbc0e0e7353112e#npm:18.3.1"],\
           ["react-infinite-scroll-component", "virtual:c2b2b3bf7cc78d393e240b24f84a3926d561a9cb99d4aa7df94c571ca6e41b8977c08d7a5f6cebb3027de8b3c5ad5eece1547a8e2ddd5826ddbc0e0e7353112e#npm:6.1.0"],\
           ["react-markdown", "virtual:c2b2b3bf7cc78d393e240b24f84a3926d561a9cb99d4aa7df94c571ca6e41b8977c08d7a5f6cebb3027de8b3c5ad5eece1547a8e2ddd5826ddbc0e0e7353112e#npm:9.0.1"],\
@@ -6644,6 +6646,16 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@types/react-copy-to-clipboard", [\
+      ["npm:5.0.7", {\
+        "packageLocation": "../../luke/.yarn/berry/cache/@types-react-copy-to-clipboard-npm-5.0.7-cf9459d351-10c0.zip/node_modules/@types/react-copy-to-clipboard/",\
+        "packageDependencies": [\
+          ["@types/react-copy-to-clipboard", "npm:5.0.7"],\
+          ["@types/react", "npm:18.3.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@types/react-dom", [\
       ["npm:18.3.0", {\
         "packageLocation": "../../luke/.yarn/berry/cache/@types-react-dom-npm-18.3.0-111444d3eb-10c0.zip/node_modules/@types/react-dom/",\
@@ -9017,6 +9029,16 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../luke/.yarn/berry/cache/cookie-signature-npm-1.0.6-93f325f7f0-10c0.zip/node_modules/cookie-signature/",\
         "packageDependencies": [\
           ["cookie-signature", "npm:1.0.6"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["copy-to-clipboard", [\
+      ["npm:3.3.3", {\
+        "packageLocation": "../../luke/.yarn/berry/cache/copy-to-clipboard-npm-3.3.3-6964e6cfad-10c0.zip/node_modules/copy-to-clipboard/",\
+        "packageDependencies": [\
+          ["copy-to-clipboard", "npm:3.3.3"],\
+          ["toggle-selection", "npm:1.0.6"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -15968,6 +15990,7 @@ const RAW_RUNTIME_STATE =
           ["@types/jest", "npm:27.5.2"],\
           ["@types/node", "npm:16.18.97"],\
           ["@types/react", "npm:18.3.1"],\
+          ["@types/react-copy-to-clipboard", "npm:5.0.7"],\
           ["@types/react-dom", "npm:18.3.0"],\
           ["craco-alias", "npm:3.0.1"],\
           ["date-fns", "npm:3.6.0"],\
@@ -15979,6 +16002,7 @@ const RAW_RUNTIME_STATE =
           ["firebase", "npm:10.11.1"],\
           ["prettier", "npm:3.2.5"],\
           ["react", "npm:18.3.1"],\
+          ["react-copy-to-clipboard", "virtual:c2b2b3bf7cc78d393e240b24f84a3926d561a9cb99d4aa7df94c571ca6e41b8977c08d7a5f6cebb3027de8b3c5ad5eece1547a8e2ddd5826ddbc0e0e7353112e#npm:5.1.0"],\
           ["react-dom", "virtual:c2b2b3bf7cc78d393e240b24f84a3926d561a9cb99d4aa7df94c571ca6e41b8977c08d7a5f6cebb3027de8b3c5ad5eece1547a8e2ddd5826ddbc0e0e7353112e#npm:18.3.1"],\
           ["react-infinite-scroll-component", "virtual:c2b2b3bf7cc78d393e240b24f84a3926d561a9cb99d4aa7df94c571ca6e41b8977c08d7a5f6cebb3027de8b3c5ad5eece1547a8e2ddd5826ddbc0e0e7353112e#npm:6.1.0"],\
           ["react-markdown", "virtual:c2b2b3bf7cc78d393e240b24f84a3926d561a9cb99d4aa7df94c571ca6e41b8977c08d7a5f6cebb3027de8b3c5ad5eece1547a8e2ddd5826ddbc0e0e7353112e#npm:9.0.1"],\
@@ -18000,6 +18024,30 @@ const RAW_RUNTIME_STATE =
           ["raf", "npm:3.4.1"],\
           ["regenerator-runtime", "npm:0.13.11"],\
           ["whatwg-fetch", "npm:3.6.20"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["react-copy-to-clipboard", [\
+      ["npm:5.1.0", {\
+        "packageLocation": "../../luke/.yarn/berry/cache/react-copy-to-clipboard-npm-5.1.0-de9742f2bc-10c0.zip/node_modules/react-copy-to-clipboard/",\
+        "packageDependencies": [\
+          ["react-copy-to-clipboard", "npm:5.1.0"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:c2b2b3bf7cc78d393e240b24f84a3926d561a9cb99d4aa7df94c571ca6e41b8977c08d7a5f6cebb3027de8b3c5ad5eece1547a8e2ddd5826ddbc0e0e7353112e#npm:5.1.0", {\
+        "packageLocation": "./.yarn/__virtual__/react-copy-to-clipboard-virtual-d12711399c/3/luke/.yarn/berry/cache/react-copy-to-clipboard-npm-5.1.0-de9742f2bc-10c0.zip/node_modules/react-copy-to-clipboard/",\
+        "packageDependencies": [\
+          ["react-copy-to-clipboard", "virtual:c2b2b3bf7cc78d393e240b24f84a3926d561a9cb99d4aa7df94c571ca6e41b8977c08d7a5f6cebb3027de8b3c5ad5eece1547a8e2ddd5826ddbc0e0e7353112e#npm:5.1.0"],\
+          ["@types/react", "npm:18.3.1"],\
+          ["copy-to-clipboard", "npm:3.3.3"],\
+          ["prop-types", "npm:15.8.1"],\
+          ["react", "npm:18.3.1"]\
+        ],\
+        "packagePeers": [\
+          "@types/react",\
+          "react"\
         ],\
         "linkType": "HARD"\
       }]\
@@ -20114,6 +20162,15 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["to-regex-range", "npm:5.0.1"],\
           ["is-number", "npm:7.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["toggle-selection", [\
+      ["npm:1.0.6", {\
+        "packageLocation": "../../luke/.yarn/berry/cache/toggle-selection-npm-1.0.6-c506b73005-10c0.zip/node_modules/toggle-selection/",\
+        "packageDependencies": [\
+          ["toggle-selection", "npm:1.0.6"]\
         ],\
         "linkType": "HARD"\
       }]\
