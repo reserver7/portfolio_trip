@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import App from './App'
 import reportWebVitals from './reportWebVitals'
 
+import { AlertContextProvider } from '@contexts/AlertContext'
 import { Global } from '@emotion/react'
 import globalStyles from '@styles/globalStyles'
 import { QueryClient, QueryClientProvider } from 'react-query'
@@ -22,7 +23,9 @@ root.render(
     <Global styles={globalStyles} />
     <RecoilRoot>
       <QueryClientProvider client={client}>
-        <App />
+        <AlertContextProvider>
+          <App />
+        </AlertContextProvider>
       </QueryClientProvider>
     </RecoilRoot>
   </React.StrictMode>,
