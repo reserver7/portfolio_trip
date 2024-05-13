@@ -1,3 +1,4 @@
+import useUser from '@/hooks/auth/useUser'
 import { colors } from '@/styles/colorPalette'
 import { css } from '@emotion/react'
 import Button from '@shared/Button'
@@ -10,15 +11,22 @@ function Navbar() {
   const showSignButton =
     ['/signup', '/signin'].includes(location.pathname) === false
 
-  // @TODO
-  const user = null
+  const user = useUser()
 
   const renderButton = useCallback(() => {
     if (user != null) {
       return (
         <Link to="my">
-          {/* @TODO */}
-          <img src="" alt="" />
+          <img
+            src={
+              user.photoURL ??
+              'https://cdn4.iconfinder.com/data/icons/music-ui-solid-24px/24/user_account_profile-2-64.png'
+            }
+            alt="유저의 이미지"
+            width={40}
+            height={40}
+            style={{ borderRadius: '100%' }}
+          />
         </Link>
       )
     }
@@ -36,13 +44,7 @@ function Navbar() {
 
   return (
     <Flex justify="space-between" align="center" css={navbarContainerStyles}>
-      <Link to="/" style={{ width: '80px', transform: 'translateX(-25px)' }}>
-        <img
-          width="100%"
-          src="https://framerusercontent.com/images/y7135TGP0TiQ7gtLbQ0IrWOzww.jpg?lossless=1"
-          alt=""
-        />
-      </Link>
+      <Link to="/">Trip</Link>
       {renderButton()}
     </Flex>
   )
