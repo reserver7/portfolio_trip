@@ -3,6 +3,7 @@ import Carousel from '@/components/hotel/Carousel'
 import Contents from '@/components/hotel/Contents'
 import useHotel from '@/components/hotel/hooks/useHotel'
 import RecommendHotels from '@/components/hotel/RecommendHotels'
+import Review from '@/components/hotel/Review'
 import Rooms from '@/components/hotel/Rooms'
 import Top from '@/components/shared/Top'
 import Map from '@components/hotel/Map'
@@ -28,6 +29,7 @@ const HotelPage = () => {
       <Contents contents={contents} />
       <Map location={location} />
       <RecommendHotels recommendHotels={recommendHotels} />
+      <Review hotelId={id} />
     </div>
   )
 }
