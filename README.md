@@ -4,12 +4,15 @@
 - [Pull Request](https://github.com/reserver7/portfolio_mcard/pulls?q=is%3Apr+is%3Aclosed) 탭에서 각 기능별 코드를 확인할 수 있습니다.
 - 사이트 링크: [https://portfolio-trip.vercel.app/](https://portfolio-trip.vercel.app/)
 
-![1](https://github.com/reserver7/portfolio_mcard/assets/78328320/577604ad-034a-4038-a730-4b79200337b2)
-![2](https://github.com/reserver7/portfolio_mcard/assets/78328320/d8ee4b22-7957-4eb9-abe9-b43490ac477e)
-![3](https://github.com/reserver7/portfolio_mcard/assets/78328320/10de3fed-5695-46f8-b273-10a862c94e77)
-![4](https://github.com/reserver7/portfolio_mcard/assets/78328320/ae8bca20-0f7a-443e-ae3c-1652d463c483)
-![5](https://github.com/reserver7/portfolio_mcard/assets/78328320/e32e3901-cd8f-4cd1-8af2-57a54481bed1)
-![6](https://github.com/reserver7/portfolio_mcard/assets/78328320/3188fefe-965b-4795-8e5b-4bd30fbbeb5b)
+![1](https://github.com/reserver7/portfolio_trip/assets/78328320/e457ef98-ab04-4671-9786-5fb24e34c3f7)
+![2](https://github.com/reserver7/portfolio_trip/assets/78328320/865c79bf-bc1f-47da-8125-371d68f9be26)
+![3](https://github.com/reserver7/portfolio_trip/assets/78328320/19664b50-c1c8-4c63-8e39-5a9445f96a4b)
+![4](https://github.com/reserver7/portfolio_trip/assets/78328320/222de6fc-54b7-4032-9af5-1b0276f38723)
+![5](https://github.com/reserver7/portfolio_trip/assets/78328320/4f23e0bf-b5af-4dd2-a9c4-2135707b0e0f)
+![6](https://github.com/reserver7/portfolio_trip/assets/78328320/a44f9eeb-d86d-41b4-bd98-f0ef0314e67b)
+![7](https://github.com/reserver7/portfolio_trip/assets/78328320/b123358e-ba51-4eee-82c9-a9a84e393269)
+![8](https://github.com/reserver7/portfolio_trip/assets/78328320/e7bc5005-f28a-499a-ad2b-c352258883a6)
+![9](https://github.com/reserver7/portfolio_trip/assets/78328320/20ceeadc-f1cc-4735-acb7-ea3187a4261c)
 
 <br />
 
