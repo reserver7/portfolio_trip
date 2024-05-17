@@ -1,4 +1,5 @@
 export interface Hotel {
+  length: number
   comment: string
   contents: string
   id: string

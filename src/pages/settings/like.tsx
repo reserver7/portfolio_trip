@@ -9,6 +9,7 @@ import {
   DroppableProps,
   DropResult,
 } from 'react-beautiful-dnd'
+import { Virtuoso } from 'react-virtuoso'
 
 const LikePage = () => {
   const { data, isEdit, reorder, save } = useEditLike()
@@ -33,29 +34,38 @@ const LikePage = () => {
               ref={droppableProps.innerRef}
               {...droppableProps.droppableProps}
             >
-              {data?.map((like, index) => {
-                return (
-                  <Draggable key={like.id} draggableId={like.id} index={index}>
-                    {(draggableProps) => (
-                      <li
-                        ref={draggableProps.innerRef}
-                        {...draggableProps.draggableProps}
-                        {...draggableProps.dragHandleProps}
-                      >
-                        <ListRow
-                          as="div"
-                          contents={
-                            <ListRow.Texts
-                              title={like.order}
-                              subTitle={like.hotelName}
-                            />
-                          }
-                        />
-                      </li>
-                    )}
-                  </Draggable>
-                )
-              })}
+              <Virtuoso
+                useWindowScroll
+                increaseViewportBy={0}
+                itemContent={(index, like) => {
+                  return (
+                    <Draggable
+                      key={like.id}
+                      draggableId={like.id}
+                      index={index}
+                    >
+                      {(draggableProps) => (
+                        <li
+                          ref={draggableProps.innerRef}
+                          {...draggableProps.draggableProps}
+                          {...draggableProps.dragHandleProps}
+                        >
+                          <ListRow
+                            as="div"
+                            contents={
+                              <ListRow.Texts
+                                title={like.order}
+                                subTitle={like.hotelName}
+                              />
+                            }
+                          />
+                        </li>
+                      )}
+                    </Draggable>
+                  )
+                }}
+                data={data}
+              />
             </ul>
           )}
         </StrictModeDroppable>

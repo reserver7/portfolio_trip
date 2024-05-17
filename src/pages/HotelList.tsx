@@ -1,5 +1,6 @@
 import useHotels from '@/components/hotelList/hooks/useHotels'
 import HotelItem from '@/components/hotelList/HotelItem'
+import withSuspense from '@/components/shared/hocs/withSuspense'
 import Spacing from '@/components/shared/Spacing'
 import Top from '@/components/shared/Top'
 import useLike from '@/hooks/like/useLike'
@@ -47,4 +48,6 @@ const HotelListPage = () => {
   )
 }
 
-export default HotelListPage
+export default withSuspense(HotelListPage, {
+  fallback: <div>호텔리스트 불러오는중...</div>,
+})

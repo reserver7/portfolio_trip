@@ -1,3 +1,4 @@
+import withSuspense from '@/components/shared/hocs/withSuspense'
 import { useAlertContext } from '@/contexts/AlertContext'
 import useUser from '@/hooks/auth/useUser'
 import addDelimiter from '@/utils/addDelimiter'
@@ -116,4 +117,6 @@ const imageStyles = css`
   border-radius: 4px;
 `
 
-export default Rooms
+export default withSuspense(Rooms, {
+  fallback: <div>객실정보 불러오는중...</div>,
+})
