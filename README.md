@@ -1,4 +1,4 @@
-# Trip
+# Trip
 
 - React, Typescript를 이용한 호텔 예약 프로젝트 입니다.
 - [Pull Request](https://github.com/reserver7/portfolio_mcard/pulls?q=is%3Apr+is%3Aclosed) 탭에서 각 기능별 코드를 확인할 수 있습니다.
@@ -47,7 +47,7 @@
 ## 배포
 
 - Vercel
-- Github Action 자동 배포
+- Github Action 자동 배포
 - Ci/Cd workflow 구축
 
 ## 컴포넌트
