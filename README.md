@@ -1,7 +1,7 @@
 # Trip
 
 - React, Typescript를 이용한 호텔 예약 프로젝트 입니다.
-- [Pull Request](https://github.com/reserver7/portfolio_mcard/pulls?q=is%3Apr+is%3Aclosed) 탭에서 각 기능별 코드를 확인할 수 있습니다.
+- [Pull Request](https://github.com/reserver7/portfolio_trip/pulls?q=is%3Apr+is%3Aclosed) 탭에서 각 기능별 코드를 확인할 수 있습니다.
 - 사이트 링크: [https://portfolio-trip.vercel.app/](https://portfolio-trip.vercel.app/)
 
 ![1](https://github.com/reserver7/portfolio_trip/assets/78328320/e457ef98-ab04-4671-9786-5fb24e34c3f7)
